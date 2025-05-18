@@ -24,6 +24,7 @@ body{
     height: 130px;
     filter: brightness(0.7);
     opacity: 0.5;
+    transition: transform 1s ease-in-out;
 }
 .abejas{
     top: 15%;
@@ -44,7 +45,13 @@ body{
 .mish{
     right: 10%;
     bottom: 1%;
-
+}
+.corazones{
+    right: 15%;
+    bottom: 10%;
+}
+.none{
+    display: none;
 }
 .botones{
     display: flex;
@@ -56,4 +63,8 @@ body{
     font-family: 'minecraft';
     width: 150px;
     cursor: pointer;
+}
+
+.mover-steve {
+    transform: translate(200px, 100px);
 }
